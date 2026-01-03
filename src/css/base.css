@@ -1,0 +1,200 @@
+/* === RESET === */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*,
+body {
+  font-family: "Lato", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Media elements */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Form elements */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:root {
+  --font-family-main: "Lato", sans-serif;
+  --font-weight-main: 400;
+  --font-style-main: normal;
+
+  --h1-family: "Lato", sans-serif;
+  --h1-size: 46px;
+  --h1-line-height: 60px;
+  --h1-weight: 900;
+
+  --h2-family: "Lato", sans-serif;
+  --h2-size: 32px;
+  --h2-line-height: 42px;
+  --h2-weight: 700;
+
+  --h3-family: "Lato", sans-serif;
+  --h3-size: 28px;
+  --h3-line-height: 37px;
+  --h3-weight: 700;
+
+  --h4-family: "Lato", sans-serif;
+  --h4-size: 24px;
+  --h4-line-height: 31px;
+  --h4-weight: 700;
+
+  --h5-family: "Lato", sans-serif;
+  --h5-size: 20px;
+  --h5-line-height: 26px;
+  --h5-weight: 700;
+
+  --h6-family: "Lato", sans-serif;
+  --h6-size: 16px;
+  --h6-line-height: 24px;
+  --h6-weight: 700;
+
+  --display-1-size: 72px;
+  --display-1-line-height: 93px;
+
+  --display-2-size: 64px;
+  --display-2-weight: 900;
+  --display-2-line-height: 83px;
+
+  --display-3-size: 56px;
+  --display-3-line-height: 73px;
+
+  --display-4-size: 48px;
+  --display-4-line-height: 63px;
+
+  --lead-regular-size: 20px;
+  --lead-regular-line-height: 30px;
+  --lead-regular-weight: 400;
+
+  --lead-bold-size: 20px;
+  --lead-bold-line-height: 30px;
+  --lead-bold-weight: 700;
+
+  --large-regular-size: 18px;
+  --large-regular-line-height: 27px;
+  --large-regular-weight: 400;
+
+  --large-bold-size: 18px;
+  --large-bold-line-height: 27px;
+  --large-bold-weight: 700;
+
+  --base-regular-size: 16px;
+  --base-regular-line-height: 26px;
+  --base-regular-weight: 400;
+
+  --base-bold-size: 16px;
+  --base-bold-line-height: 26px;
+  --base-bold-weight: 700;
+
+  --small-regular-size: 14px;
+  --small-regular-line-height: 21px;
+  --small-regular-weight: 400;
+
+  --small-bold-size: 14px;
+  --small-bold-line-height: 21px;
+  --small-bold-weight: 700;
+
+  --extrasmall-regular-size: 12px;
+  --extrasmall-regular-line-height: 18px;
+  --extrasmall-regular-weight: 400;
+
+  --extrasmall-bold-size: 12px;
+  --extrasmall-bold-line-height: 18px;
+  --extrasmall-bold-weight: 700;
+
+  --extraextrasmall-regular-size: 10px;
+  --extraextrasmall-regular-line-height: 15px;
+  --extraextrasmall-regular-weight: 400;
+
+  --extraextrasmall-bold-size: 10px;
+  --extraextrasmall-bold-line-height: 15px;
+  --extraextrasmall-bold-weight: 700;
+
+  /* Colors */
+  --white: #ffffff;
+  --primary: #f73d38;
+  --btn-gradient: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+  --btn-outline-gradient-background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(135deg, #ff3f3a, #f75e05) border-box;
+  --btn-outline-gradient-background-pink: linear-gradient(#fedbd3, #fedbd3)
+      padding-box,
+    linear-gradient(135deg, #ff3f3a, #f75e05) border-box;
+  --btn-outline-gradient-background-hover: linear-gradient(#ff3f3a, #f75e05)
+      padding-box,
+    linear-gradient(135deg, #ff3f3a, #f75e05) border-box;
+  --btn-outline-gradient-text: linear-gradient(135deg, #ff3f3a, #f75e05);
+  --secondary: #ffcf2d;
+  --success: #03cea4;
+  --danger: #ff4242;
+  --warning: #f89828;
+  --info: #5a87fc;
+  --pink: rgba(245, 47, 110, 1);
+
+  --gray-900: #1e212c;
+  --gray-800: #424551;
+  --gray-700: #787a80;
+  --gray-600: #9a9ca5;
+  --gray-500: #b3b7bc;
+  --gray-400: #d7dadd;
+  --gray-300: #e5e8ed;
+  --gray-200: #f4f5f6;
+  --gray-100: #f9f9f9;
+
+  /*Shadows */
+  --shadow-small: 0px 12px 10px 0px rgba(154, 156, 165, 0.2);
+  --shadow-regular: 0px 10px 14px 10px rgba(154, 156, 165, 0.2);
+  --shadow-large: 0px 80px 80px -20px rgba(154, 156, 165, 0.7);
+}
