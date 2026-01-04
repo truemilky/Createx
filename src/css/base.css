@@ -80,7 +80,7 @@ table {
   --h2-family: "Lato", sans-serif;
   --h2-size: 32px;
   --h2-line-height: 42px;
-  --h2-weight: 700;
+  --h2-weight: 900;
 
   --h3-family: "Lato", sans-serif;
   --h3-size: 28px;
@@ -194,7 +194,11 @@ table {
   --gray-100: #f9f9f9;
 
   /*Shadows */
-  --shadow-small: 0px 12px 10px 0px rgba(154, 156, 165, 0.2);
-  --shadow-regular: 0px 10px 14px 10px rgba(154, 156, 165, 0.2);
-  --shadow-large: 0px 80px 80px -20px rgba(154, 156, 165, 0.7);
+  --shadow-gray-small: 0px 12px 10px 0px rgba(154, 156, 165, 0.2);
+  --shadow-gray-regular: 0px 10px 14px 10px rgba(154, 156, 165, 0.2);
+  --shadow-gray-large: 0px 80px 80px -20px rgba(154, 156, 165, 0.7);
+
+  --shadow-red-small: 0px 12px 10px -6px rgba(255, 63, 58, 0.08);
+  --shadow-red-regular: 0px 30px 24px -10px rgba(255, 63, 58, 0.1);
+  --shadow-red-large: 0px 80px 80px -20px rgba(255, 63, 58, 0.16);
 }
