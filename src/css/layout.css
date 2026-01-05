@@ -562,3 +562,100 @@ span.events-decoration:nth-of-type(2) {
   background: var(--gray-200);
   z-index: 0;
 }
+
+.swiper-slide:nth-child(1) .team-card-image {
+  background: var(--secondary) url("../assets/images/team-3.png") no-repeat
+    bottom center / 245px;
+}
+
+.swiper-slide:nth-child(2) .team-card-image {
+  background: var(--secondary) url("../assets/images/team-2.png") no-repeat
+    bottom center / 245px;
+}
+
+.swiper-slide:nth-child(3) .team-card-image {
+  background: var(--secondary) url("../assets/images/team-1.png") no-repeat
+    bottom center / 245px;
+}
+
+.swiper-slide:nth-child(4) .team-card-image {
+  background: var(--secondary) url("../assets/images/team-4.png") no-repeat
+    bottom center / 245px;
+}
+
+.swiper-slide:nth-child(5) .team-card-image {
+  background: var(--secondary) url("../assets/images/team-3.png") no-repeat
+    bottom center / 245px;
+}
+
+.swiper-slide:nth-child(6) .team-card-image {
+  background: var(--secondary) url("../assets/images/team-2.png") no-repeat
+    bottom center / 245px;
+}
+
+.swiper-slide:nth-child(7) .team-card-image {
+  background: var(--secondary) url("../assets/images/team-1.png") no-repeat
+    bottom center / 245px;
+}
+
+.swiper-slide:nth-child(8) .team-card-image {
+  background: var(--secondary) url("../assets/images/team-4.png") no-repeat
+    bottom center / 245px;
+}
+
+.team-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.team-slide-controls {
+  display: flex;
+  align-items: center;
+}
+
+span.team-decoration {
+  position: absolute;
+  display: block;
+  z-index: -1;
+  background-repeat: no-repeat;
+}
+
+span.team-decoration:nth-of-type(1) {
+  top: 70px;
+  left: 220px;
+  width: 41px;
+  height: 41px;
+  background: url("../assets/images/Decoration/team-decoration-1.svg");
+  background-repeat: no-repeat;
+}
+
+span.team-decoration:nth-of-type(2) {
+  top: 35px;
+  right: 510px;
+  width: 143px;
+  height: 105px;
+  background: url("../assets/images/Decoration/team-decoration-2.svg");
+  background-repeat: no-repeat;
+}
+
+span.team-decoration:nth-of-type(3) {
+  bottom: 250px;
+  right: 0px;
+  width: 75px;
+  height: 96px;
+  background: url("../assets/images/Decoration/team-decoration-3.svg");
+  background-repeat: no-repeat;
+}
+
+.testimonials {
+  position: relative;
+  padding: 90px 0;
+  background: var(--gray-200);
+  z-index: 0;
+}
+
+.testimonials .subtitle,
+.testimonials .title {
+  text-align: center;
+}

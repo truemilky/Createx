@@ -58,16 +58,33 @@ eventCardsButtons.forEach((btn) => {
 });
 
 /* Team section (index.html) swiper control */
-const swiper = new Swiper(".swiper", {
+const teamSlider = new Swiper(".team-slider", {
   // Optional parameters
   direction: "horizontal",
-  loop: true,
+  loop: false,
   slidesPerView: 4,
-  spaceBetween: 10,
+  spaceBetween: 20,
 
   // Navigation arrows
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".team-slider-next",
+    prevEl: ".team-slider-prev",
+    disabledClass: "swiper-button-disabled",
+  },
+});
+
+/* Testimonials section (index.html) swiper control */
+const testimonialsSlider = new Swiper(".testimonials-slider", {
+  // Optional parameters
+  direction: "horizontal",
+  loop: false,
+  slidesPerView: 1,
+  spaceBetween: 0,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".testimonials-slider-next",
+    prevEl: ".testimonials-slider-prev",
+    disabledClass: "swiper-button-disabled",
   },
 });
