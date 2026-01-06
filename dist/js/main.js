@@ -80,11 +80,17 @@ const testimonialsSlider = new Swiper(".testimonials-slider", {
   loop: false,
   slidesPerView: 1,
   spaceBetween: 0,
+  autoHeight: true,
 
   // Navigation arrows
   navigation: {
     nextEl: ".testimonials-slider-next",
     prevEl: ".testimonials-slider-prev",
     disabledClass: "swiper-button-disabled",
+  },
+
+  pagination: {
+    el: ".testimonials-pagination",
+    clickable: true,
   },
 });
